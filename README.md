@@ -4,6 +4,20 @@ CAPTCHA on Flarum **login** and **registration**. Pick one provider in the admin
 
 Compatible with **Flarum 1.8**.
 
+## Screenshots
+
+Login:
+
+![Login](docs/login.png)
+
+Registration:
+
+![Sign up](docs/register.png)
+
+Admin:
+
+![Admin](docs/admin.png)
+
 ## What it does
 
 - One provider at a time, chosen from **Admin → PRM Security**
