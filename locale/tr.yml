@@ -1,0 +1,17 @@
+prm-security:
+  admin:
+    settings:
+      provider_label: Captcha sağlayıcısı
+      provider_help: Giriş ve kayıtta hangi doğrulamanın kullanılacağını seç. Anahtarları yapıştırana kadar Kapalı bırak.
+      provider_none: Kapalı
+      provider_recaptcha: Google reCAPTCHA v2
+      provider_hcaptcha: hCaptcha
+      provider_turnstile: Cloudflare Turnstile
+      site_key_label: Site anahtarı
+      site_key_help: Sağlayıcı panelindeki genel anahtar. Tarayıcıda görünmesi normaldir.
+      secret_key_label: Gizli anahtar
+      secret_key_help: Özel anahtar. Paylaşma. Anahtarları Google reCAPTCHA, hCaptcha veya Cloudflare Turnstile panelinden alırsın.
+      on_login_label: Girişte zorunlu tut
+      on_register_label: Kayıtta zorunlu tut
+  forum:
+    invalid: Lütfen captcha doğrulamasını tamamla ve tekrar dene.

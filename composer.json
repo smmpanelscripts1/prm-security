@@ -1,0 +1,26 @@
+{
+    "name": "prm/security",
+    "description": "Add reCAPTCHA v2, hCaptcha, or Cloudflare Turnstile to Flarum login and registration.",
+    "type": "flarum-extension",
+    "version": "0.1.0",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Prm\\Security\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "PRM Security",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-user-shield",
+                "backgroundColor": "#1b3a4b",
+                "color": "#fff"
+            }
+        }
+    }
+}
